@@ -38,9 +38,9 @@
 
 <body class="font-lato">
     <!--header section-->
-    <header class="max-w-full px-5 md:px-60 mt-12">
+    <header class="max-w-full px-5 md:px-5 lg:px-60 mt-12">
         <div class="navbar bg-transparent md:bg-nav-bg-color rounded-full py-5">
-            <div class="flex-1 text-white pl-14 space-x-7 hidden md:block">
+            <div class="flex-1 md:text-xs lg:text-lg text-white md:pl-5 lg:pl-14 md:space-x-5 lg:space-x-7 hidden md:block">
                 <a href="">Home</a>
                 <a href="">About Us</a>
                 <a href="">Shop</a>
@@ -48,12 +48,12 @@
             </div>
             <div class="md:flex-1 ">
                 <img src="./images/logo.png" alt="">
-                <h3 class="text-4xl font-bold text-black md:text-white ml-4">Fruit Burst</h3>
+                <h3 class="md:text-xl lg:text-4xl font-bold text-black md:text-white ml-4">Fruit Burst</h3>
             </div>
             <div class="flex-none gap-2">
                 <div class="form-control md:pr-5 hidden md:block">
 
-                    <input type="text" placeholder="Search here" class="input input-bordered rounded-full w-96" />
+                    <input type="text" placeholder="Search here" class="input input-bordered rounded-full md:w-48 lg:w-96" />
                 </div>
                 <div class="dropdown dropdown-end block md:hidden">
                     <label tabindex="0" class="block">
@@ -75,10 +75,10 @@
         </div>
     </header>
     <!--slider section-->
-    <section class="max-w-full px-5 md:px-60 mt-40 md:mt-14">
+    <section class="max-w-full px-5 md:px-5 lg:px-60 mt-40 md:mt-14">
         <div class="carousel rounded-lg relative w-full">
             <div id="slide1" class="carousel-item relative w-full">
-                <div class="text-center w-full" style="background-image: url('./images/banner1.png');">
+                <div class="text-center w-full" style="background-image: url('./images/banner1.png'); background-repeat: no-repeat;">
                     <h3 class="text-white text-7xl font-bold mt-20 mb-6">Exotic tastes at your<br> doorstep</h3>
                     <p class="text-2xl font-normal text-white mb-8">We supply highly quality organic products</p>
                     <button class="btn btn-error text-white mb-52">Shop Now</button>
@@ -89,7 +89,7 @@
                 </div>
             </div>
             <div id="slide2" class="carousel-item relative w-full">
-                <div class="text-center w-full" style="background-image: url('./images/banner2.png');">
+                <div class="text-center w-full" style="background-image: url('./images/banner2.png'); background-repeat: no-repeat;">
                     <h3 class="text-white text-7xl font-bold mt-20 mb-6">Exotic tastes at your<br> doorstep</h3>
                     <p class="text-2xl font-normal text-white mb-8">We supply highly quality organic products</p>
                     <button class="btn btn-error text-white mb-52">Shop Now</button>
@@ -100,7 +100,7 @@
                 </div>
             </div>
             <div id="slide3" class="carousel-item relative w-full">
-                <div class="text-center w-full" style="background-image: url('./images/banner3.png');">
+                <div class="text-center w-full" style="background-image: url('./images/banner3.png'); background-repeat: no-repeat;">
                     <h3 class="text-white text-7xl font-bold mt-20 mb-6">Exotic tastes at your<br> doorstep</h3>
                     <p class="text-2xl font-normal text-white mb-8">We supply highly quality organic products</p>
                     <button class="btn btn-error text-white mb-52">Shop Now</button>
@@ -111,7 +111,7 @@
                 </div>
             </div>
             <div id="slide4" class="carousel-item relative w-full">
-                <div class="text-center w-full" style="background-image: url('./images/banner4.png');">
+                <div class="text-center w-full" style="background-image: url('./images/banner4.png'); background-repeat: no-repeat;">
                     <h3 class="text-white text-7xl font-bold mt-20 mb-6">Exotic tastes at your<br> doorstep</h3>
                     <p class="text-2xl font-normal text-white mb-8">We supply highly quality organic products</p>
                     <button class="btn btn-error text-white mb-52">Shop Now</button>
@@ -122,7 +122,7 @@
                 </div>
             </div>
         </div>
-        <div class="flex bg-white drop-shadow-sm space-x-24 py-12 px-16 mx-28 -mt-28 hidden md:flex">
+        <div class="flex bg-white drop-shadow-sm space-x-24 py-12 px-16 mx-28 -mt-28 hidden md:hidden lg:flex">
             <div>
                 <figure><img src="./images/fruit1.png" alt=""></figure>
                 <figcaption class="text-xl text-center mt-4">Strawberry</figcaption>
@@ -145,7 +145,57 @@
             </div>
         </div>
     </section>
-
+    <!--team member-->
+    <section class="px-5 md:px-5 lg:px-60 mt-10 md:mt-10 lg:mt-36">
+        <div class="py-32" style="background-image: url('./images/team.png'); background-repeat: no-repeat; background-size: cover;">
+            <div class="text-center">
+                <h3 class="text-5xl font-bold text-white mb-6">Meet the team section</h3>
+                <p class="text-base font-medium text-white mb-12">Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+            </div>
+            <div class="flex flex-col md:flex-row md:gap-16 lg:gap-36 px-5 md:px-5 lg:px-56 text-center">
+                <div>
+                    <img class="rounded-full mx-auto" src="./images/member1.png" alt="">
+                    <h3 class="text-2xl font-bold text-white mt-8">Awlad</h3>
+                    <h4 class="text-base font-medium text-white mt-2">Fruits Expert</h4>
+                    <div class="space-x-3 mt-2">
+                        <span><i class="fa-brands fa-facebook-f text-center text-white rounded-full bg-[#F85559] w-6 h-6 leading-6"></i></span>
+                        <span><i class="fa-brands fa-twitter text-center text-white rounded-full bg-[#F85559] w-6 h-6 leading-6"></i></span>
+                        <span><i class="fa-brands fa-linkedin-in text-center text-white rounded-full bg-[#F85559] w-6 h-6 leading-6"></i></span>
+                    </div>
+                </div>
+                <div>
+                    <img class="rounded-full mx-auto" src="./images/member2.png" alt="">
+                    <h3 class="text-2xl font-bold text-white mt-8">Safia</h3>
+                    <h4 class="text-base font-medium text-white mt-2">Fruits Expert</h4>
+                    <div class="space-x-3 mt-2">
+                        <span><i class="fa-brands fa-facebook-f text-center text-white rounded-full bg-[#F85559] w-6 h-6 leading-6"></i></span>
+                        <span><i class="fa-brands fa-twitter text-center text-white rounded-full bg-[#F85559] w-6 h-6 leading-6"></i></span>
+                        <span><i class="fa-brands fa-linkedin-in text-center text-white rounded-full bg-[#F85559] w-6 h-6 leading-6"></i></span>
+                    </div>
+                </div>
+                <div>
+                    <img class="rounded-full mx-auto" src="./images/member3.png" alt="">
+                    <h3 class="text-2xl font-bold text-white mt-8">Rokib</h3>
+                    <h4 class="text-base font-medium text-white mt-2">Fruits Expert</h4>
+                    <div class="space-x-3 mt-2">
+                        <span><i class="fa-brands fa-facebook-f text-center text-white rounded-full bg-[#F85559] w-6 h-6 leading-6"></i></span>
+                        <span><i class="fa-brands fa-twitter text-center text-white rounded-full bg-[#F85559] w-6 h-6 leading-6"></i></span>
+                        <span><i class="fa-brands fa-linkedin-in text-center text-white rounded-full bg-[#F85559] w-6 h-6 leading-6"></i></span>
+                    </div>
+                </div>
+                <div>
+                    <img class="rounded-full mx-auto" src="./images/member4.png" alt="">
+                    <h3 class="text-2xl font-bold text-white mt-8">Chaity</h3>
+                    <h4 class="text-base font-medium text-white mt-2">Fruits Expert</h4>
+                    <div class="space-x-3 mt-2">
+                        <span><i class="fa-brands fa-facebook-f text-center text-white rounded-full bg-[#F85559] w-6 h-6 leading-6"></i></span>
+                        <span><i class="fa-brands fa-twitter text-center text-white rounded-full bg-[#F85559] w-6 h-6 leading-6"></i></span>
+                        <span><i class="fa-brands fa-linkedin-in text-center text-white rounded-full bg-[#F85559] w-6 h-6 leading-6"></i></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 </body>
 
 </html>
