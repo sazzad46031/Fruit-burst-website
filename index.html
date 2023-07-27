@@ -53,9 +53,12 @@
             </div>
             <div class="flex-none gap-2">
                 <div class="form-control md:pr-5 hidden md:block">
-
-                    <input type="text" placeholder="Search here"
-                        class="input input-bordered rounded-full md:w-48 lg:w-96" />
+                    <div class="relative md:w-48 lg:w-96">
+                        <input type="text" placeholder="Search here" class="input input-bordered rounded-full md:w-48 lg:w-96 pr-10" />
+                        <div class="absolute top-3 right-5">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </div>
+                    </div>
                 </div>
                 <div class="dropdown dropdown-end block md:hidden">
                     <label tabindex="0" class="block">
@@ -69,8 +72,12 @@
                         <li><a>All Fruits</a></li>
                     </ul>
                     <div tabindex="0" class="form-control dropdown-content mt-36">
-
-                        <input type="text" placeholder="Search here" class="input input-bordered rounded-full w-48" />
+                        <div class="relative w-48">
+                            <input type="text" placeholder="Search here" class="input input-bordered rounded-full w-48 pr-10" />
+                            <div class="absolute top-3 right-5">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -213,7 +220,7 @@
                             onclick="my_modal_5.showModal()">Details</button>
                         <dialog id="my_modal_5" class="modal modal-bottom sm:modal-middle">
                             <form method="dialog" class="modal-box">
-                                <img class="mx-auto" src="./images/fruit6.png" alt="">
+                                <img class="mx-auto w-28 md:w-28 lg:w-72" src="./images/fruit6.png" alt="">
                                 <h3 class="font-bold text-4xl mt-6">Apples</h3>
                                 <p class="py-4">Professional employees are there for you to pick the most amazing and
                                     fresh fruits.</p>
@@ -251,7 +258,7 @@
                             onclick="my_modal_6.showModal()">Details</button>
                         <dialog id="my_modal_6" class="modal modal-bottom sm:modal-middle">
                             <form method="dialog" class="modal-box">
-                                <img class="mx-auto" src="./images/fruit7.png" alt="">
+                                <img class="mx-auto w-28 md:w-28 lg:w-72" src="./images/fruit7.png" alt="">
                                 <h3 class="font-bold text-4xl mt-6">Orange</h3>
                                 <p class="py-4">Professional employees are there for you to pick the most amazing and
                                     fresh fruits.</p>
@@ -289,7 +296,7 @@
                             onclick="my_modal_7.showModal()">Details</button>
                         <dialog id="my_modal_7" class="modal modal-bottom sm:modal-middle">
                             <form method="dialog" class="modal-box">
-                                <img class="mx-auto" src="./images/fruit8.png" alt="">
+                                <img class="mx-auto w-28 md:w-28 lg:w-72" src="./images/fruit8.png" alt="">
                                 <h3 class="font-bold text-4xl mt-6">Red Dragon</h3>
                                 <p class="py-4">Professional employees are there for you to pick the most amazing and
                                     fresh fruits.</p>
@@ -327,7 +334,7 @@
                             onclick="my_modal_8.showModal()">Details</button>
                         <dialog id="my_modal_8" class="modal modal-bottom sm:modal-middle">
                             <form method="dialog" class="modal-box">
-                                <img class="mx-auto" src="./images/fruit9.png" alt="">
+                                <img class="mx-auto w-28 md:w-28 lg:w-72" src="./images/fruit9.png" alt="">
                                 <h3 class="font-bold text-4xl mt-6">Banana</h3>
                                 <p class="py-4">Professional employees are there for you to pick the most amazing and
                                     fresh fruits.</p>
